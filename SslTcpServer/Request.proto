@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+package SslTcpServer;
+
+message Command {
+	uint64 MessageId = 1;
+	bytes Body = 2;
+}

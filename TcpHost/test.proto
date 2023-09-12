@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+
+message SayHello {
+	string A = 1;
+}
+
+message SayGoodbye {
+	string B = 1;
+	string C = 2;
+}
+
+message Request {
+	oneof Body {
+		SayHello Hello = 2;
+		SayGoodbye Goodbye = 3;
+	}
+}

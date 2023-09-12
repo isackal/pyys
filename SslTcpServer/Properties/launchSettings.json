@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SslTcpServer": {
+      "commandName": "Project",
+      "commandLineArgs": "server 15552108B6B01809A331D91271F238DEA25D9AF2"
+    }
+  }
+}
